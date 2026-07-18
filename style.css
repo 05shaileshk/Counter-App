@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  background-color: #f4f4f0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+div {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+.app-title {
+  font-size: 18px;
+  color: #1a365d;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+h1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  color: #1a365d;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px auto;
+  font-family: sans-serif;
+
+  /* background-color: gray;
+  width: 50%;
+  height: 50%;
+  font-size: 70px;
+  margin: 0 0 20px;
+  color: #1a365d; */
+}
+button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+button:active {
+  transform: scale(0.95);
+}
+#btn-increment {
+  background-color: #4cd137;
+}
+#btn-decrement {
+  background-color: #e84118;
+}
+#btn-reset {
+  background-color: #747d6c;
+  font-size: 15px;
+  
+}
